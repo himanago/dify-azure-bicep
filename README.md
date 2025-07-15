@@ -141,22 +141,22 @@ az account set --subscription <subscription-id>
 
 - **Parameter Name**: `difyApiImage`
 - **Type**: `string`
-- **Default Value**: `langgenius/dify-api:1.1.2`
+- **Default Value**: `langgenius/dify-api:1.6.0`
 
 #### Dify Sandbox Image
 
 - **Parameter Name**: `difySandboxImage`
 - **Type**: `string`
-- **Default Value**: `langgenius/dify-sandbox:0.2.10`
+- **Default Value**: `langgenius/dify-sandbox:0.2.12`
 
 ##### Dify Web Image
 
 - **Parameter Name**: `difyWebImage`
 - **Type**: `string`
-- **Default Value**: `langgenius/dify-web:1.1.2`
+- **Default Value**: `langgenius/dify-web:1.6.0`
 
 ##### Dify Plugin Daemon Image
 
 - **Parameter Name**: `difyPluginDaemonImage`
 - **Type**: `string`
-- **Default Value**: `langgenius/dify-plugin-daemon:0.0.6-local`
+- **Default Value**: `langgenius/dify-plugin-daemon:0.1.3-local`

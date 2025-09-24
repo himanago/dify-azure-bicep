@@ -55,16 +55,16 @@ param acaAppMinCount int = 0
 param isAcaEnabled bool = false
 
 @description('Dify APIイメージ')
-param difyApiImage string = 'langgenius/dify-api:1.6.0'
+param difyApiImage string = 'langgenius/dify-api:1.9.0'
 
 @description('Dify サンドボックスイメージ')
 param difySandboxImage string = 'langgenius/dify-sandbox:0.2.12'
 
 @description('Dify Webイメージ')
-param difyWebImage string = 'langgenius/dify-web:1.6.0'
+param difyWebImage string = 'langgenius/dify-web:1.9.0'
 
 @description('Dify Plugin Daemonイメージ')
-param difyPluginDaemonImage string = 'langgenius/dify-plugin-daemon:0.1.3-local'
+param difyPluginDaemonImage string = 'langgenius/dify-plugin-daemon:0.3.0-local'
 
 
 // リソースグループを作成
